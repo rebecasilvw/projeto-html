@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Doce Encanto &#x1F9C1;</h1>
+        <nav>
+            <ul type="none">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../pages/sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="../pages/cardapio.html">Cardápio</a>
+                </li>
+                <li>
+                    <a href="../pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Entre em contato 💌</h2>
+        <p>Tem alguma dúvida ou deseja fazer um pedido? Preencha o formulário abaixo e fale com a Doce Encanto!</p>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais:</legend>
+                <label for="ipt-nome">Nome:</label>
+                <input 
+                       type="text" 
+                       name="nome" 
+                       id="ipt-nome"
+                >
+                <br><br>
+                <label for="ipt-email">E-mail:</label>
+                <input 
+                       type="email" 
+                       name="email" 
+                       id="ipt-email"
+                >
+                <br><br>
+                <label for="ipt-telefone">Telefone:</label>
+                <input 
+                       type="tel" 
+                       name="telefone" 
+                       id="ipt-telefone"
+                >
+            </fieldset>
+            <fieldset>
+                <legend>Sobre o pedido:</legend>
+                <label for="ipt-produto">Produto desejado:</label>
+                <input 
+                       type="text" 
+                       name="produto" 
+                       id="ipt-produto"
+                >
+                <br><br>
+                <label for="ipt-data">Data desejada:</label>
+                <input 
+                       type="date"
+                       name="data" 
+                       id="ipt-data"
+                >
+                <br><br>
+                <label for="ipt-mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="ipt-mensagem"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Forma de contato:</legend>
+                <label>
+                    <input 
+                           type="radio" 
+                           name="contato" 
+                           id="ipt-telefone" 
+                           value="telefone"
+                    >
+                    Telefone
+                </label>
+                <label>
+                    <input 
+                        type="radio" 
+                        name="contato" 
+                        id="ipt-email" 
+                        value="email"
+                    >
+                    E-mail
+                </label>
+                <label>
+                    <input 
+                        type="radio" 
+                        name="contato" 
+                        id="ipt-whatsapp" 
+                        value="whatsapp"
+                    >
+                    WhatsApp
+                </label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
